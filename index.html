@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Professional Web design">
+	<meta name="keywords" content="web design, professional web design">
+	<meta name="author" content="Drazulica">
+	<title>DrazilicaWeb | Welcome</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<!-- W3 Animate Zoom    -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+</head>
+<body id="body">
+	<header id="top">
+		<div class="container">
+			<span class="open-slide">
+				<a href="#" onclick="openSlideMenu()">
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+			            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>		<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>				
+					</svg>
+				</a>
+			</span>
+			<div id="branding">
+				<a href="index.html"><i class="fas fa-university"></i><span class="highlight">Drazilica</span>Web Design</a>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+    <!-- Sidenav mobilenav -->
+		<ul class="sidenav" id="mobile-nav">
+      			<li><a href="index.html">Home</a></li>
+      			<li><a href="about.html">About</a></li>
+      			<li><a href="services.html">Services</a></li>
+        </ul>
+             	
+	<!-- Showcase -->
+	<section id="showcase" class="w3-animate-opacity">
+		<div class="container intro-text">
+			<h1>Professional Web Design</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in risus aliquet, laoreet erat eu, vehicula velit. Vivamus suscipit sit amet lorem sit amet mattis</p>
+			
+			<button id="btn" class="w3-button w3-large w3-opacity">Customize Here</button>
+		</div>
+		
+	<!-- W3-Model -->
+		
+		<div id="model" class="w3-modal">
+			<div class="w3-modal-content w3-animate-zoom ">
+			  <header class="w3-container w3-yellow"> 
+				<span onclick="document.getElementById('model').style.display='none'" 
+				class="w3-button w3-display-topright">&times;</span>
+				<h2>Use JS App</h2>
+			  </header>
+			  <div class="w3-container">
+				<form class="w3-container w3-light-grey w3-text-dark-gray w3-margin w3-xlarge">
+					<h2 class="w3-center">Input field</h2>
+					<div class="w3-row w3-section">
+
+						<div class="w3-rest">
+						  <input id="intro-text" class="w3-input w3-border" type="text" placeholder="Choose Your Intro Text">
+						</div>
+					</div>			
+					<div class="w3-row w3-section">
+
+						<div class="w3-rest">
+						  <input id="intro-text-color" class="w3-input w3-border" type="text" placeholder="Choose Your Intro Text Color">
+						</div>
+					</div>
+					<div class="w3-row w3-section">
+
+						<div class="w3-rest">
+						  <input id="logo-title" class="w3-input w3-border" type="text" placeholder="Choose Your Logo">
+						</div>
+					</div>
+					<div class="w3-row w3-section">
+
+						<div class="w3-rest">
+						  <input id="logo-color" class="logo-col w3-input w3-border" type="text" placeholder="Choose Your Logo Color">
+						</div>
+					</div>
+					
+					<div class="new-backgrounds">
+						<div class="backg1"></div>
+						<div class="backg2"></div>
+						<div class="backg3"></div>
+						<div class="backg4"></div>
+					</div>		
+				</form>
+				<div class="w3-container">
+				<button id="save-button" class="w3-button w3-container w3-xlarge w3-block w3-section w3-yellow w3-ripple w3-padding">Save</button>
+			  	</div>
+			  </div>			       
+			</div>
+	 	</div>
+		
+	</section>
+	
+	<!-- Newsletter -->
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe to Our Newslatter</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="submit" class="button_1">Subscribe</button>
+			</form>
+		</div>
+	</section>
+
+	
+	<!-- Boxes -->
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="img/HTML5_Logo_512.png" alt="HTML5">
+				<h3>HTML5 Markup</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in risus aliquet, laoreet erat eu, vehicula velit. Vivamus suscipit sit amet lorem sit amet mattis</p>
+			</div>
+			<div class="box">
+				<img src="img/css3.png" alt="CSS3">
+				<h3>CSS3 Styling</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in risus aliquet, laoreet erat eu, vehicula velit. Vivamus suscipit sit amet lorem sit amet mattis</p>
+			</div>
+			<div class="box">
+				<img src="img/design.png" alt="Logo Design">
+				<h3>Graphic Design</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in risus aliquet, laoreet erat eu, vehicula velit. Vivamus suscipit sit amet lorem sit amet mattis</p>
+			</div>
+		</div>
+		
+		<div id="wrap" class="wrap-container"></div>
+		
+	</section>
+	
+	<footer>
+		<p><em>Drazilica</em>Web Design, Copyright &copy; 2017</p>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.js">
+	</script>
+    <script src="js/main.js"></script> 
+    
+    
+</body>
+</html>
