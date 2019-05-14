@@ -154,9 +154,9 @@ header .container #branding a {
 	font-size: 2rem;
 }
 
-/* .current {
-	background-color: #e8491d;
-} */
+.current {
+	color: #e8491d;
+}
 
 /*----------------------------------------------------------------------*/
 /* Showcase */
@@ -276,6 +276,17 @@ div#save-button {
 #newsletter.about input {
 	height: 23px;
 	
+}
+
+audio {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	height: 30px;
+	left: 40%;
+	top: 58%;
+	margin: 0;
+	padding: 0;
 }
 
 #newsletter.about h1 {
