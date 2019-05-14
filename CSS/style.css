@@ -55,6 +55,16 @@ ul {
 span {
 	font-style: italic;
 }
+
+/* Radio Player ------------------------------------------------------------ */
+audio {
+	position: absolute;
+	width: 20%;
+	height: 30px;
+	top: 30px;
+	left: 500px;
+}
+
 /*------------------------------------------------------------------*/
 /* Sidenav */
 .sidenav {
@@ -276,17 +286,6 @@ div#save-button {
 #newsletter.about input {
 	height: 23px;
 	
-}
-
-audio {
-	position: absolute;
-	display: inline-block;
-	width: 20%;
-	height: 30px;
-	left: 40%;
-	top: 58%;
-	margin: 0;
-	padding: 0;
 }
 
 #newsletter.about h1 {
