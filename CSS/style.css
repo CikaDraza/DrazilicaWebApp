@@ -147,13 +147,16 @@ header .highlight, header .current a {
 	font-weight: bold;
 }
 nav li a:hover {
-	color: #cccccc;
-	font-weight: bold;
+	color: #e8491d;
 }
 header .container #branding a {
 	text-transform: capitalize;
 	font-size: 2rem;
 }
+
+/* .current {
+	background-color: #e8491d;
+} */
 
 /*----------------------------------------------------------------------*/
 /* Showcase */
@@ -208,7 +211,6 @@ form button.w3-button:hover {
 	margin-top: 50px;
 	padding: 10px;
 	text-align: center;
-	z-index: 0;
 	border-bottom: 1px solid #e8491d;
 	border-left: 4px solid #e8491d;
 	border-top: 2px solid #e8491d;
@@ -370,19 +372,19 @@ aside#sidebar {
 	display: inline-block;
 	width: 30%;
 	margin-top: 50px;
-    margin-left: 5%;
+  margin-left: 5%;
 	overflow: auto;
 	padding-bottom: 100px;
 }
 aside#sidebar .dark form.quote input {
-    padding: 8px;
-    width: 55%;
+  padding: 8px;
+  width: 55%;
 	font-family: cursive;
 	font-size: 1rem;
 }
 aside#sidebar .dark form.quote textarea {
-    width: 55%;
-    padding: 10px;
+  width: 55%;
+  padding: 10px;
 	font-family: cursive;
 	font-size: 1rem;
 }
@@ -445,8 +447,10 @@ footer#about {
 	}
 	
 	header#top {
+		position: absolute;
 		padding-top: 10px;
 		height: 100px;
+		/* display: none; */
 	}
 	
 	header#top nav ul {
@@ -456,12 +460,61 @@ footer#about {
 	
 	div#branding {
 		margin: -28px 0 0 0;
+		height: 100px;
+	}
+
+	.fas.fa-university {
+		font-size: 26px;
+		margin: 0px 0 0 20px;
+	}
+
+	header .container #branding a {
+		height: 50px;
+		font-size: 1.2em;
+	}
+
+	header .container #branding a span {
+		font-size: 1em;
+	}
+
+	#btn.w3-button {
+		margin: 0;
 	}
 	
 	#showcase {
 		background-position: center;
 	}
+
+	.w3-modal-content {
+		position: relative;
+		top: 52px;
+		margin: 0;
+		padding: 0;
+		height: 540px;
+	}
+
+	header.w3-yellow {
+		height: 60px;
+	}
 	
+	.w3-light-grey {
+		position: relative;
+		top: -15px;
+		height: 420px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.w3-rest ::placeholder {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#save-button {
+		position: relative;
+		top: -50px;
+	}
+
 	#showcase h1{
 		margin-top: 120px;
 		font-size: 40px;
