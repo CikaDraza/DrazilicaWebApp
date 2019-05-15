@@ -57,11 +57,19 @@ span {
 }
 
 /* Radio Player ------------------------------------------------------------ */
-audio {
+audio.one {
 	position: absolute;
 	width: 20%;
 	height: 30px;
-	top: 30px;
+	top: 20px;
+	left: 500px;
+}
+
+audio.two {
+	position: absolute;
+	width: 20%;
+	height: 30px;
+	top: 60px;
 	left: 500px;
 }
 
